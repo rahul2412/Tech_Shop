@@ -1,0 +1,57 @@
+header{ height:100px; width:80%; margin:20px; }
+
+header img{ width:60%;	height:80%;	align-self:center }
+
+#info{ color:indigo; font-family:Arial, Helvetica, sans-serif; 
+    font-weight: bolder;font-size: xx-large;
+text-shadow: 3px 3px aqua; text-align: center}
+
+#result{float:right;}
+
+.products{ clear:left; margin:20px; width:60%;}
+
+.product{  width:100%; float:left; border:1px solid black; overflow:auto;}
+
+.product img{ float:left; width:20%;}
+
+.product div{ float:left; word-wrap:normal; width:60%; }
+
+aside{  float:right; width:35%;
+     position:absolute; right:10px; 
+     border:1px solid black; overflow:auto; }
+
+.dropzone{  color:blue; text-align:center; }
+
+#cart h2{  color:black; text-align:center;}
+
+#cart p{ margin:10px;}
+
+#cart-content{ overflow:auto; border:1px solid gray;
+     background:lightGray; width:95%; margin:0 auto; }
+
+.btnSelect{  float:left; width:30%; margin:30px; background:yellow; color:blue; font-weight:bold;}
+
+ol{ list-style-type:none; }
+
+footer{   
+    /* clear:both;
+    float:right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 0 auto 8px;
+    text-shadow: 0 1px 0px #fff;  */
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px aqua; 
+    margin-top: -180px;
+    /* negative value of footer height */
+    height: 180px;
+    clear: both;
+}
+
+#qty{ width:50px;}
+
+.checkoutdiv{  clear:left; border:1px solid blue;
+     background:lightGray; }
