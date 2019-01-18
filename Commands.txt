@@ -1,0 +1,7 @@
+Go to application folder and host it using command
+
+http-server
+
+Go to RESTFulService and run run command
+
+node RESTFulService.js
