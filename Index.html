@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>TechShop - Shopping Cart</title>
+	<link rel="stylesheet" href="./CSS/myStyles.css">
+</head>
+<body>
+	<div>
+		<header>
+			<img src="images/download.png" />
+		</header>
+		<p id="info">Welcome to TechShop </p>
+		<p id="resultEle"></p>
+		<section id="products" class="products">
+			<p>The Technology Products Store. <br/> Click on products that you wish to purchase into the shopping cart area on the right.</p>
+			<div class="product" title="Apple">
+				<img src="laptops/apple/apple1.jpg" />
+				<div class="product-info">
+					<h2>Apple Macbook</h2>
+					<p>Apple MD101HN/A Macbook Pro MD101HN/A </p>
+					<p>(Intel Core i5 - 13 inch, 500 GB HDD, 4 GB DDR3, Mac OS Laptop)</p>
+				</div>
+				<p>$216.99</p>
+			</div>
+			<div class="product" title="Dell">
+				<img src="laptops/dell/dell1.jpg" width="165" height="198" alt="Dell Laptops" />
+				<div class="product-info">
+					<h2>Dell Vostro</h2>
+					<p>14' V3446 Notebook</p>
+					<p> (4th Gen Ci5/ 4GB/ 500GB/ Windows 8.1/ 2 GB Graph)</p>
+				</div>
+				<p>$159.99</p>
+			</div>
+			<div class="product" title="hp">
+				<img src="laptops/hp/hp1.jpg" width="165" height="198" alt="HP Laptops" />
+				<div class="product-info">
+					<h2>HP Notebook</h2>
+					<p>HP 15-r014TX Notebook</p>
+					<p>(4th Gen Ci5/ 4GB/ 1TB/ Win8.1/ 2GB Graph)</p>
+				</div>
+				<p>$178.99</p>
+			</div>
+		</section>
+		<aside>
+			<div id="cart">
+				<h2>Your Shopping Cart</h2>
+				<p>As you browse through the product listing, you can add your items to the shopping cart by Placing them into the box below.</p>
+				<div class="dropzone">
+					<p>Place items here to add them to your cart.</p>
+				</div>
+				<!-- product list label -->
+				<div id="cart-content">
+					<ol>
+						<li><label id="noItemMsg">You have no items in your cart.</label></li>
+					</ol>
+				</div>
+				<!--  product list -->
+				<div>
+					<button class="btnSelect" id="remove">Remove all items from cart.</button>
+					<button class="btnSelect" id="checkout">Check out</button>
+				</div>
+				<!-- button div -->
+				<div id="checkoutdiv" class="checkoutdiv">
+					<table>
+						<tr>
+							<td><label for="txtUserName">User Name:</label></td>
+							<td><input type="text" id="txtUserName" placeholder="Enter Username..." autofocus required/></td>
+						</tr>
+						<tr>
+							<td><label for="txtPwd">Password:</label></td>
+							<td><input type="password" id="txtPwd" required/></td>
+						</tr>
+						<tr>
+							<td colspan=2><input type="submit" id="submit" value="Submit" /></td>
+						</tr>
+					</table>
+				</div>
+				<!-- checkout section -->
+			</div>
+			<!-- Shopping cart div -->
+		</aside>
+		<footer>
+			<p>Copyright &copy; Persistent University</p>
+		</footer>
+	</div>
+	<!-- main div -->
+	<script type="text/javascript" src="./Scripts/myScripts.js"></script>
+</body>
+
+</html>
